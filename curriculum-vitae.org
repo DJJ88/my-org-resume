@@ -70,7 +70,7 @@
 ** Photo & Tagline                                                   :ignore:
 #+begin_export latex
 \name{Didier Jérémie Juste}
-%\photoR{0.5cm}{~/Pictures/profile/didier-jeremie-juste-cropped.jpg}
+\photoR{2.5cm}{didier-jeremie-juste-cropped.jpg}
 \tagline{PhD in Economics / Data Scientist}
 #+end_export
 
@@ -113,7 +113,7 @@
 {{{cvevent(Data Scientist,I.D. Inspiring Development, Oct 2020 -- Apr 2024, Frankfurt\, DE)}}}
 
 # Researching methods for probabilistic inference and control in multimodal dynamical systems. EPSRC Centre for Doctoral Training in Future Autonomous and Robotic Systems (FARSCOPE).
-I was given the responsibility to improve the ETL procedure with the view of increasing the capacity of the team without substantial increase in costs. I met this target by decreasing the ETL computing time eight folds, giving the team more resources to increase the value of the service. I also train the team to efficient data maniputaion in R and to improve communication through git commits. Besides, I improved methodologies to model credit risk (PD, LGD, EAD, Backtesting) so that much more risk scenarios could be explored easily. Overall, the team successfully assessed the portfolio of more that 30 banks and microfinance institutions over three years.
+I was given the responsibility to improve the ETL procedure with the view of increasing the capacity of the team without substantial increase in costs. I met this target by decreasing the ETL computing time by eight folds, giving the team more resources to increase the value of the service. I also train the team to efficient data maniputaion in R and to improve communication through git commits. Besides, I improved methodologies to model credit risk (PD, LGD, EAD, Backtesting) so that much more risk scenarios could be explored easily. Overall, the team successfully assessed the portfolio of more that 30 banks and microfinance institutions over three years.
 
 {{{cvtag(Improve ETL)}}}
 {{{cvtag(Backend Development)}}}

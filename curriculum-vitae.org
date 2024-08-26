@@ -4,7 +4,7 @@
 #+BEGIN_SRC emacs-lisp :exports none  :results none :eval yes
   (setq org-latex-logfiles-extensions (quote ("lof" "lot" "tex~" "aux" "idx" "log" "out" "toc" "nav" "snm" "vrb" "dvi" "fdb_latexmk" "blg" "brf" "fls" "entoc" "ps" "spl" "bbl" "xmpi" "run.xml" "bcf")))
   (add-to-list 'org-latex-classes
-	       '("altacv_jj1" "\\documentclass[10pt,a4paper,ragged2e,withhyper]{altacv}
+	       '("altacv" "\\documentclass[10pt,a4paper,ragged2e,withhyper]{altacv}
 
   % Change the page layout if you need to
   \\geometry{left=1.25cm,right=1.25cm,top=1.5cm,bottom=1.5cm,columnsep=1.2cm}
@@ -51,7 +51,7 @@
 #+END_SRC
 
 * Latex Preamble                                                   :noexport:
-#+LATEX_CLASS: altacv_jj1
+#+LATEX_CLASS: altacv_jj
 #+LATEX_HEADER: \usepackage{paracol}
 #+LATEX_HEADER: \columnratio{0.6} % Set the left/right column width ratio to 6:4.
 #+LATEX_HEADER: \usepackage[bottom]{footmisc}
@@ -86,7 +86,7 @@
   \homepage{https://jeremiejuste.gitlab.io/}
   \email{jeremiejuste@gmail.com}
   \phone{+33 6 18 82 77 61}
-  \github{djj88}
+  \github{djj89}
   \linkedin{djj88}
   \location{Frankfurt am Main, DE}
     \location{Open for relocation}
@@ -113,7 +113,7 @@
 {{{cvevent(Data Scientist,I.D. Inspiring Development, Oct 2020 -- Apr 2024, Frankfurt\, DE)}}}
 
 # Researching methods for probabilistic inference and control in multimodal dynamical systems. EPSRC Centre for Doctoral Training in Future Autonomous and Robotic Systems (FARSCOPE).
-I was given the responsibility to improve the ETL procedure with the view of increasing the capacity of the team without substantial increase in costs. I met this target by decreasing the ETL computing time by eight folds, giving the team more resources to increase the value of the service. I also train the team to efficient data maniputaion in R and to improve communication through git commits. Besides, I improved methodologies to model credit risk (PD, LGD, EAD, Backtesting) so that much more risk scenarios could be explored easily. Overall, the team successfully assessed the portfolio of more that 30 banks and microfinance institutions over three years.
+I was given the responsibility to improve the ETL procedure with the view of increasing the capacity of the team without substantial increase in costs. I met this target by decreasing the ETL computing time by eight folds, giving the team more resources to increase the value of the service. I also trained the team to perform efficient data manipulation in R and to improve communication through git commits. Besides, I improved methodologies to model credit risk (PD, LGD, EAD, Backtesting) so that much more risk scenarios could be explored easily. Overall, the team successfully assessed the portfolio of more that 30 banks and microfinance institutions over three years.
 
 {{{cvtag(Improve ETL)}}}
 {{{cvtag(Backend Development)}}}
@@ -122,7 +122,7 @@ I was given the responsibility to improve the ETL procedure with the view of inc
 *** CNRS Postdoctoral Researcher                                     :ignore:
 {{{par-div}}}
 {{{cvevent(CNRS Postdoctoral Researcher, CAMS EHESS,Sept 2019 -- Aug 2022, Paris\, Fr)}}}
-I built a web application to visualize the demand and supply of jobs of the job platform Qapa using Dataiku DSS and analyze the  performance of the job matching algorithm of Qapa. A topic of interest was the analysis of the bias of the algorithm.
+I built a web application to visualize the demand and supply of jobs of the job platform Qapa using Dataiku DSS and analyzed the  performance of the job matching algorithm of Qapa. A topic of interest was the analysis of the bias of the algorithm.
 
 {{{cvtag(Feature Engineering)}}}
 {{{cvtag(Machine Learning)}}}
